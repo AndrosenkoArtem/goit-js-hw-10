@@ -14,7 +14,52 @@ body {
 
 #search-box {
   font: inherit;
+  margin-left: 40px;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  list-style: none;
+}
+.countries {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 15px;
+  background-color: rgba(234, 239, 225, 0.852);
+}
+.countries:not(:last-child) {
+  margin-bottom: 10px;
+}
+.flag {
+  width: 70px;
+  height: 100%;
+  margin-right: 10px;
+}
+.country {
+  display: inline-block;
+  padding: 20px 50px;
+  width: auto;
+  border-radius: 20px;
+  list-style: none;
+  background-color: rgba(234, 239, 225, 0.852);
+}
+.country__photo {
+  width: 30px;
+  height: 100%;
+}
+.country__title {
+  margin: 0px;
+  margin-left: 10px;
+}
+.country__subtitle {
+  font-weight: 700;
+}
+.super-span {
+  display: flex;
+  align-items: center;
+}
+.text-span {
+  font-weight: 500;
+  font-size: 15px;
+  color: #606060;
 }
